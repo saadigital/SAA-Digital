@@ -1,0 +1,86 @@
+:root {
+    --navy-dark: #07090F;
+    --navy-light: #0E111C;
+    --violet-primary: #7C3AED;
+    --violet-secondary: #C026D3;
+}
+
+body {
+    background-color: var(--navy-dark);
+    color: #F8FAFC;
+}
+
+.font-montserrat { font-family: 'Montserrat', sans-serif; }
+.font-inter { font-family: 'Inter', sans-serif; }
+
+.bg-navy-dark { background-color: var(--navy-dark); }
+.bg-navy-light { background-color: var(--navy-light); }
+
+.text-violet-gradient {
+    background: linear-gradient(135deg, #8B5CF6 0%, #D946EF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.reveal-text {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+/* Service Card Glassmorphism Refined */
+.service-card {
+    background: rgba(14, 17, 28, 0.7);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(124, 58, 237, 0.1);
+    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.service-card:hover {
+    border-color: rgba(124, 58, 237, 0.4);
+    transform: translateY(-10px);
+    box-shadow: 0 25px 50px -12px rgba(124, 58, 237, 0.2);
+    background: rgba(14, 17, 28, 0.9);
+}
+
+/* Scroll Nav State */
+.nav-scrolled {
+    background: rgba(7, 9, 15, 0.95);
+    backdrop-filter: blur(10px);
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid rgba(124, 58, 237, 0.15);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 6px;
+}
+::-webkit-scrollbar-track {
+    background: var(--navy-dark);
+}
+::-webkit-scrollbar-thumb {
+    background: #1E293B;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: var(--violet-primary);
+}
+
+/* Pulsing effect for WhatsApp */
+@keyframes pulse-soft {
+    0%, 100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.4); }
+    50% { transform: scale(1.05); box-shadow: 0 0 0 20px rgba(37, 211, 102, 0); }
+}
+.pulse-animation {
+    animation: pulse-soft 2s infinite;
+}
+
+/* Grid helper */
+.grid-cols-4 {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+@media (max-width: 768px) {
+    .reveal-text {
+        font-size: 2.75rem;
+    }
+}

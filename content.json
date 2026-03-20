@@ -1,0 +1,90 @@
+{
+    "services": [
+        {
+            "id": 1,
+            "title": "Social Media Management",
+            "icon": "share-2",
+            "desc": "Turn followers into loyal brand advocates. We handle content scheduling, community management, and growth strategy.",
+            "benefits": ["Increased Engagement", "Brand Loyalty", "24/7 Monitoring"]
+        },
+        {
+            "id": 2,
+            "title": "Website Development",
+            "icon": "code",
+            "desc": "Your 24/7 digital storefront. High-performance custom builds optimized for speed, security, and conversions.",
+            "benefits": ["Mobile Responsive", "SEO Ready", "Fast Load Times"]
+        },
+        {
+            "id": 3,
+            "title": "Branding & Graphic Design",
+            "icon": "palette",
+            "desc": "Visual identities that demand attention. From logos to complete brand guidelines that build instant trust.",
+            "benefits": ["Unique Identity", "Professional Appeal", "Visual Consistency"]
+        },
+        {
+            "id": 4,
+            "title": "SEO Optimization",
+            "icon": "trending-up",
+            "desc": "Dominate search results in Kathmandu and beyond. We build long-term organic traffic through deep technical audits.",
+            "benefits": ["Top Rankings", "Sustainable Traffic", "High ROI"]
+        },
+        {
+            "id": 5,
+            "title": "Content Creation",
+            "icon": "video",
+            "desc": "Share-worthy assets including professional photography, high-end videography, and persuasive copywriting.",
+            "benefits": ["Viral Potential", "Quality Storytelling", "Multi-platform Ready"]
+        },
+        {
+            "id": 6,
+            "title": "Paid Ads (PPC)",
+            "icon": "target",
+            "desc": "Precision-targeted campaigns on Meta and Google. Reach the right audience at the right time to maximize sales.",
+            "benefits": ["Instant Leads", "Audience Targeting", "Budget Efficiency"]
+        },
+        {
+            "id": 7,
+            "title": "GMB Optimization",
+            "icon": "map-pin",
+            "desc": "Master local search. We optimize your Google My Business profile to ensure locals find you first.",
+            "benefits": ["Local Visibility", "Customer Reviews", "Store Visits"]
+        },
+        {
+            "id": 8,
+            "title": "24/7 Creative Support",
+            "icon": "clock",
+            "desc": "Constant availability for your digital needs. We ensure your brand never sleeps in a digital-first world.",
+            "benefits": ["Instant Updates", "Peace of Mind", "Priority Service"]
+        }
+    ],
+    "pillars": [
+        {
+            "title": "Results-Driven Strategy",
+            "desc": "We don’t just create; we calculate. Every campaign is backed by data to ensure measurable growth for your business."
+        },
+        {
+            "title": "Globally Capable, Locally Rooted",
+            "desc": "Based in Kathmandu, we bring international standards to the Nepalese market while helping local brands go global."
+        },
+        {
+            "title": "Radically Inclusive",
+            "desc": "SAA Digital is a proud LGBTQ+ friendly agency. We believe in diverse representation and inclusive marketing for everyone."
+        },
+        {
+            "title": "End-to-End Excellence",
+            "desc": "From the first line of code to the final social post, we handle the complexity so you can focus on running your business."
+        }
+    ],
+    "testimonials": [
+        {
+            "name": "Sarah Jenkins",
+            "role": "CEO, TechFlow",
+            "text": "SAA Digital transformed our online presence. Our leads increased by 40% in just three months."
+        },
+        {
+            "name": "Rajesh Hamal",
+            "role": "Marketing Director",
+            "text": "The most professional team in Kathmandu. Their attention to detail in branding is unmatched."
+        }
+    ]
+}
