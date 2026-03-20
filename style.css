@@ -34,6 +34,12 @@ body {
     transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+/*Red Hover*/
+.bg-white {
+    --tw-bg-opacity: 1;
+    background-color: rgb(211 37 37);
+}
+
 .service-card:hover {
     border-color: rgba(124, 58, 237, 0.4);
     transform: translateY(-10px);
